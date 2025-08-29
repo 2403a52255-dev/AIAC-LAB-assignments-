@@ -1,0 +1,31 @@
+with open("example.txt", "w") as f:
+    f.write("Hello,world!")
+with open("data1.txt", "w") as f1:
+    f1.write("First file content\n")
+with open("data2.txt", "w") as f2:
+    f2.write("Second file content\n")
+print("Files written successfully")
+with open("input.txt", "w") as finput:
+    finput.write("apple\nbanana\ncat\n")
+with open("input.txt", "r") as data, open("output.txt", "w") as output:
+    for line in data:
+        output.write(line.upper())
+
+print("Processing done")
+with open("numbers.txt", "w") as fnumbers:
+    fnumbers.write("2\n3\n4\nfive\n")
+
+with open("numbers.txt", "r") as f:
+    nums = f.readlines()
+
+squares = []
+for n in nums:
+    n = n.strip()
+    if n.isdigit():
+        squares.append(int(n) * int(n))
+
+with open("Squares.txt", "w") as f2:
+    for sq in squares:
+        f2.write(str(sq) + "\n")
+
+print("Squares written")
