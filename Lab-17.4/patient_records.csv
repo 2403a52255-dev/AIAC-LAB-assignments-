@@ -1,0 +1,6 @@
+patient_id,blood_pressure,heart_rate,height,weight,gender
+1,120.0,80.0,170.0,65.0,M
+2,,75.0,165.0,70.0,male
+3,140.0,,1.7,80.0,Female
+4,130.0,90.0,,,f
+5,,85.0,180.0,55.0,MALE

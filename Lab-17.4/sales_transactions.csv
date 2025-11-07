@@ -1,0 +1,11 @@
+transaction_id,customer_name,transaction_date,transaction_amount,payment_method
+1,Alice,2024-01-15,250.75,Card
+2,Bob,15/02/2024,0.0,Cash
+3,Charlie,March 3 2024,-100.0,UPI
+4,David,2024/04/10,450.0,Card
+5,Eva,,500.0,Cash
+6,Frank,2024-05-20,300.5,UPI
+7,Grace,06-06-2024,0.0,UPI
+8,Helen,2024.07.25,620.0,Card
+9,Ian,2024-08-10,750.0,Cash
+10,Jane,2024/09/05,-50.0,Card
