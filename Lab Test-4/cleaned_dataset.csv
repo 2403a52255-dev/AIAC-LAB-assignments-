@@ -1,0 +1,7 @@
+customer_id,first_name,last_name,age,salary
+1.0,John,Smith,25.0,50000.0
+2.0,Jane,Doe,30.0,60000.0
+3.0,Bob,Johnson,30.0,75000.0
+4.0,Alice,Brown,45.0,60000.0
+5.0,Alice,Wilson,35.0,65000.0
+3.0,Tom,Clark,28.0,55000.0
